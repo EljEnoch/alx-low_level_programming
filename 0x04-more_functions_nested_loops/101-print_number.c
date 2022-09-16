@@ -9,9 +9,9 @@
 void print_number(int n)
 {
 	unsigned int m, d, count;
-	
-	if (n < i)
-{
+
+	if (n < 0)
+	{
 		_putchar(45);
 		m = n * -1;
 	}
@@ -19,7 +19,6 @@ void print_number(int n)
 	{
 		m = n;
 	}
-
 	d = m;
 	count = 1;
 
