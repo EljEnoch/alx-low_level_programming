@@ -4,14 +4,16 @@
 /**
  * _puts - Print a string folllowed by a new line.
  * @str: String to be printed
- * Return: Nothing
+ *
+ * Description: Prints a string
+ * On success: Returns no error
  */
 
 void _puts(char *str)
 {
 	int i = 0;
 
-	while (*(str + 1) != '\0')
+	while (*(str + i) != '\0')
 	{
 		putchar(*(str + i));
 		i++;
